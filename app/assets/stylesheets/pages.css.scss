@@ -1,3 +1,11 @@
+html {
+  background: url(https://content.codecademy.com/projects/broadway/bg.jpg?_gl=1*f9mowx*_ga*NDAwMDcyMDkwMy4xNjU1NDU0MzY0*_ga_3LRZM6TM9L*MTY1NjA1NTY5Ni42LjEuMTY1NjA1NjE2NS4zMQ..) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -15,12 +23,13 @@ html, body {
   background-color: #333;
 }
 
-.nav {
+nav {
   margin: 0;
   padding: 20px 0;
 }
 
-.nav li {
+nav li {
+  display: inline;
   color: #fff;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
@@ -46,6 +55,7 @@ html, body {
 .btn-default {
   border: 1px solid #333;
   color: #333;
+  background-color: #333;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 10px;
